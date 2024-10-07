@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulheres Brasileiras na tecnologia</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <header>
+        
+        <h1>Mulheres Brasileiras na Tecnologia</h1>
+        <nav>
+            <ul>
+            <li><a href="#hom">Home</a></li>
+            <li><a href="#biografias">Biografias</a></li>
+
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p class="intro">Para compreender a importância da mulher na tecnologia no Brasil, é essencial delver nas contribuições e desafios enfrentados por elas nesse setor. As mulheres têm desempenho um papel fundamental na inovação, trazendo perspectivas únicas e soluções criativas. apesar das barreiras de genêro, cada vez mais profissionais femininas estão se destacando em áreas como progamação, design e gestão de projetos. A inclusão de mulheres na tecnologia não apenas enriquece o ambiente de trabalho, mas também promove diversidade, que é crucial para o desenvolvimento de produtos mais abrangentes e eficazes. O empoderamento feminino  nesse campo é, portanto, um passo vital rumo a uma sociedade mais equitativa e tecnologia.</p>
+        <!-- Seção sobre as Mulheres-->
+         <section id="biografias">
+            <h2>Biografias de Mulheres na tecnologia</h2>
+
+            <article>
+                <h3>1. ada Lemos</h3>
+                <p>Ada Lemos foi uma das pioneiras na internet no Brasil, responsável pela introdução da internet comercial no país.</p>
+
+            </article>
+
+            <article>
+                <h3>2. Cristina de Castro Lobo</h3>
+                <p>Cristina de Castro Lobo é professora e pesquisadora em segurança da informação, e uma as principais figuras femininas na área de criptografia no Brasil.</p>
+
+            </article>
+
+            <article>
+                <h3>3.Bertha Becker</h3>
+                <p>Bertha Becker foi uma importante geógrafa brasileira, pioneirana utilização de sistemas de informação geográfica (sig) no Brasil.</p>
+
+            </article>
+            <article>
+                <h3>4. Fernanda Weiden</h3>
+                <p>Fernada weiden  é uma engenheira de software que trabalhou no desenvolvimento de software livre, incluindo colaborações com o Linux e outras grandes corporações.</p>
+
+            </article>
+
+         </section>
+         <!--Tabela De comparação-->
+         <section id="tabela">
+            <h2>Comparação das Áreas de Atuação</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                    <th>Área</th>
+                <th>Contribuições</th>
+                </tr>
+               
+                </thead>
+
+                <tbody>
+                    <tr>
+
+                        <td>Ada Lemos</td>
+                            <td>Internet e Redes</td>
+                            <td>Pioneira em criptografia e segurança</td>
+                        
+                    </tr>
+
+                    <tr>
+
+                        <td>Bertha Becker</td>
+                        <td>Geografia e SIG</td>
+                        <td>Utilização de SIG no Brasil</td>
+
+                    </tr>
+                    <tr>
+                        <td>Fernanda Weinden</td>
+
+                        <td>Engenharia de Software</td>
+
+                        <td>Trabalho em software livre e Linux</td>
+                    </tr>
+                </tbody>
+            </table>
+         </section>
+
+         <!--Galeria de Imagens-->
+
+         <section id="galeria">
+            <h2>Galeria</h2>
+            <figure>
+                <img src="https://s2-g1.glbimg.com/G7Wj-g2sT_GX8lGylVagPQqgrFQ=/0x0:1280x720/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/A/2/ribrrcRwuI4Jf1CHaxHA/0930d319-3dcc-4032-a2e6-3c00f4f10d21.jpg" width="600" height="400" alt="Ada Lemos">
+                <figcaption>Ada Lemos</figcaption>
+            </figure>
+            <figure>
+                <img src="https://ogimg.infoglobo.com.br/in/25272863-7df-b51/FT1086A/54600130_SCCristiana-Lobo-jornalista-da-GloboNews.jpg" height="400" width="600" alt="Cristina de Castro">
+                
+                <figcaption>Cristina de Castro</figcaption>
+                
+            </figure>
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/pt/3/35/Bertha_Koiffmann_Becker.jpg" height="400" width="600" alt="Bertha Becker">
+                <figcaption>Bertha Becker</figcaption>
+                
+            </figure>
+            <figure>
+
+            </figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Fernanda_Waiden.jpg" height="400" width="600" alt="Fernanda weiden">
+                <figcaption>Fernanda Weiden</figcaption>
+                
+            </figure>
+         </section>
+         <!--Formulário de contato-->
+         <section id="contato">
+            <h2> Entre em contato</h2>
+            <form action="submit_form.php" method="post">
+                <label form="nome"Nome:></label>
+                <input type="text" id="nome" name="nome"
+                required  placeholder="Nome">
+
+                <label form="email"E-mail:></label>
+                <input type="email" id="email"  name="email"
+                required placeholder="Email"> 
+
+                <label for="mensagem"Mensagem:></label>
+                <textarea name="mensagem" id="mensagem" required placeholder="Mensagem"></textarea>
+
+                <button type="submit"> Enviar </button>
+
+            </form>
+         </section>
+
+
+
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Mulheres Brasileiras na Tecnologia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
